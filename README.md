@@ -40,7 +40,8 @@
  https://github.com/shmilylty/OneForAll
  
 ## 0x03 使用注意事项
- 1.将oneforall所有API配置上后在和ksub结合收集的子域名最全。
+ 1.将oneforall所有API配置上后在和ksub结合收集的子域名大概率最全，为什么是大概率，因为oneforall导出来结果是80和443端口，像http://xxxx.com:8080是没有的，所以需要将
+   oneforall里的ip提取出来，然后用我的另一个项目，进行全端口扫描发现8080资产。
  
  2.调用的项目改为xray_linux_amd64 nuclei ksubdomain OneForAll Finger 否则运行时报错
  
